@@ -1,0 +1,96 @@
+* {
+  font-family: Ubutu Mono;
+  text-align: center;
+}
+body {
+  margin: 0 auto;
+}
+#face {
+  border-radius: 100px 100px 100px 100px;
+}
+header {
+  height: 620px;
+  background-image: url(../img/computer-designer-desk-display.jpg);
+  background-size: cover;
+}
+
+h1 {
+  position: relative;
+  top: 200px;
+  background-color: black;
+  color: white;
+}
+#portifolio img {
+  width: 80%;
+  border-radius: 50px 50px 50px 50px;
+  position: relative;
+}
+#portifolio a{
+  position: relative;
+}
+
+#portifolio {
+  padding-top: 150px;
+}
+#myskills {
+  padding-top: 150px;
+}
+#about_me {
+  padding-top: 150px;
+}
+
+hr {
+  width: 70%;
+}
+nav {
+  background-color: #1b1b1b93;
+  height: 100px;
+}
+nav a{
+  font-size: 25px;
+  top: 40px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+}
+
+p {
+  padding: 90px 90px 90px 90px;
+}
+
+#menu_open {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .menu {
+    display: none;
+  }
+  #menu_open {
+    display: block;
+  }
+  nav span {
+    position: relative;
+    top: 45px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  a {
+    margin-top: 30px;
+  }
+  #title {
+    margin-top: 60px;
+    position: absolute;
+  }
+  p {
+    padding: 3px 3px 3px 3px;
+  }
+  header {
+    background-size: cover;
+  }
+}
